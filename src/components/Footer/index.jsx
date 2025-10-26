@@ -3,6 +3,7 @@ import style from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={style.footer}>
+      {/* CTA Section */}
       <div className={style.footertop}>
         <div className={style.container}>
           <div className={style.footertopcontent}>
@@ -14,6 +15,7 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Footer Links */}
       <div className={style.footerbottom}>
         <div className={`${style.container} ${style.footercontent}`}>
           <a href="#" className={style.footerlogo}>

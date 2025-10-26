@@ -3,6 +3,7 @@ import style from "./hero.module.css";
 export default function Hero() {
   return (
     <div>
+      {/* Hero Section */}
       <section className={style.hero}>
         <div className={style.container}>
           <div className={style.hero__container}>
@@ -26,6 +27,7 @@ export default function Hero() {
         </div>
       </section>
 
+      {/* Statistics Section */}
       <section className={style.stats}>
         <div className={style.container}>
           <div className={style.stats__container}>
